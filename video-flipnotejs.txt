@@ -1,0 +1,24 @@
+    <main role="main" class="container-xl">
+          <div class="row"><!-- Flipnote -->
+  <div class="col-lg-8">
+    <style type="text/css">
+    flipnote-player {
+      --flipnote-player-font-family: inherit;
+      --flipnote-player-button-background: #84db4d;
+      --flipnote-player-icon-color: #0f571c;
+      --flipnote-player-button-color: #84db4d;
+      --flipnote-player-slider-track: #84db4d;
+      --flipnote-player-slider-level: #0f571c;
+      --flipnote-player-slider-handle: #0f571c;
+    }
+    </style>
+    <flipnote-player id="flipnote" class="mb-4 shadow-sm rounded-lg w-100" src="/demo/video/ppm/{flipnote_ppm_filename}.ppm" width="530" controls>
+      <section class="mb-4 shadow-sm rounded-lg w-100">
+        <img width="400" src="/demo/images/gif/{flipnote_ppm_filename}.gif" alt="" class="embed-responsive-item w-100">
+      </section>
+      <section class="alert-warning mb-4 p-4 rounded-lg shadow-sm" role="alert">
+        <h5 class="mt-0"><i aria-hidden='true' class='uil uil-exclamation-triangle'></i> Unsupported Browser</h6>
+        <p style="font-size: 15px;">Sound and playback control are unavailable because your browser doesn't support the modern web technologies needed to run our browser-based Flipnote player.</p>
+        <p class="mb-0" style="font-size: 15px;">For the full experience, please <a href="https://browser-update.org/update-browser.html">update your web browser</a>.</p>
+      </section>
+    </flipnote-player>
