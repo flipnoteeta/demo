@@ -1,0 +1,5 @@
+<video controls width="530">
+    <source src="/demo/video/mp4/{flipnote_ppm_filename}.mp4" type="video/mp4">
+
+    Your browser does not support the HTML5 video tag.
+</video>
