@@ -1,0 +1,125 @@
+ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+
+
+ul.floatlist li {
+  float:left;
+}
+
+div#main ul.memolist li {
+  margin-right:20px;
+  margin-bottom:15px;
+}
+
+ul.memolist li {
+  margin-right:13px;
+  margin-bottom:13px;
+  position:relative;
+  width:153px;
+  background:url(/web/20150423125345im_/http://www.sudomemo.net/css/bg_memolist.png) no-repeat;
+}
+
+ul.memolist li.intit {
+background:transparent url(/web/20150423125345im_/http://www.sudomemo.net/css/bg_memolist_intit.png) no-repeat scroll 0 0;
+}
+
+ul.memolist li div.box-container{
+  padding:5px;
+}
+
+ul.memolist li.box-last,div#main ul.memolist li.box-last  {
+  margin-right:0;
+}
+
+ul.memolist li a.thumb-container{
+  display:block;
+  width:143px;
+  text-decoration:none;
+  color:#000;
+  overflow:hidden;
+  height:106px;
+}
+
+ul.memolist li img.thumb{
+  margin:7px 7px 0 7px;
+  width:128px;
+  height:96px;
+    background:#d9d9d9  no-repeat 5px 5px;
+}
+
+ul.memolist li div.info {
+  text-align:right;
+  font-size:70%;
+  padding:3px 5px 3px 5px;
+  width:132px;
+  height:15px;
+  white-space:nowrap;
+  overflow:hidden;
+  position:relative;
+}
+
+
+ul.memolist li div.info span.username{
+  display:block;
+  overflow:hidden;
+  text-align:left;
+  float:left;
+}
+
+ul.memolist li div.info span.username a{
+  color:#333;
+  text-decoration:none;
+}
+
+ul.memolist li div.info span.username a img{
+  vertical-align:middle;
+  margin-left:1px;
+  margin-right:1px !important;
+}
+
+
+ul.memolist li div.info span.username a:hover{
+  text-decoration:underline !important;
+}
+
+ul.memolist li div.info span.views{
+  font-weight:bold;
+  display:none;
+  float:right;
+  overflow:hidden;
+  width:38px;
+}
+
+ul.memolist li div.info span.stars{
+  font-weight:bold;
+  color:#f58206;
+  display:block;
+  float:right;
+  overflow:hidden;
+  width:auto;
+  position:absolute;
+  top:2px;
+  right:2px;
+  background:#fff;
+}
+
+ul.memolist li div.info span.messages{
+  margin-left:5px;
+  font-weight:bold;
+  color:#85a600;
+}
+
+ul.memolist li div.info span.timestamp{
+  color:#999;
+  text-align:right;
+  margin-left:5px;
+  display:none;
+}
+
+ul.memolist li div.info div img {
+  margin-right:3px;
+  margin-bottom:2px;
