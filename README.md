@@ -7,5 +7,5 @@ Users can allow to switch the both video players by clicking "Switch to Flipnote
 # Downloading flipnotes
 There are 3 file formats (PPM, GIF, and MP4). They're free and you can save by downloading them: From DSi to computers.
 
-# Offical is coming soon
-Flipnote Eta will be launch soon, with sample flipnotes won't included.
+# Offical website is coming soon
+As the prototype layout and the sample flipnotes abandoned in favor of upcoming experience. We continue to update for a single time every month.
