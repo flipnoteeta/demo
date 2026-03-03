@@ -1,3 +1,5 @@
+As on Febuary 2026, we're phasing out of sample flipnotes in favor of future services.
+
 # Flipnote Eta Demo
 Flipnote Eta Demo is a demo website exclusively on GitHub.io. It does not use for upload functionality. Instead, it contains for sample flipnotes (As we saw many popular flipnotes in late 2000s/early 2010s, including Zelda flipnote which does not include in Flipnote Archive). Also, there are 2 features appeared.
 
